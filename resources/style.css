@@ -1,0 +1,43 @@
+/*background: rgb(0 100 0 / 0.05);*/
+/*outline: 1px solid limegreen;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Pokemon Solid', sans-serif;
+  font-size: 2rem;
+}
+
+#pokemon-name {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 4rem;
+  height: 200px;
+}
+
+#feedback {
+  text-align: center;
+  font-size: 2rem;
+  color: green;
+}
+
+img {
+  margin-left: 50px;
+  margin-right: 50px;
+  background: rgb(0 100 0 / 0.05);
+  border: 2px solid limegreen;
+  border-radius: 40px;
+}
